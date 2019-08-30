@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>乐购商城</title>
+    <!-- 引入公共样式 -->
+    <link rel="stylesheet" href="./css/common.css">
+    <!-- 引入当前样式 -->
+    <link rel="stylesheet" href="./css/userRegiste.css">
+    <!-- 引入jQuery -->
+    <script src="./js/jquery.js"></script>
+    <!-- 引入表单验证js -->
+    <script src="./js/jquery.validate.min.js"></script>
+    <!-- 引入页面js -->
+    <script src="./js/userRegiste.js"></script>
+</head>
+<body style="margin-bottom: 200px">
+    <!-- header -->
+    <header>
+        <div>
+            <div class="container-fluid bgc000">
+                <div class="container welcome clearfix">
+                    <p class="fl ti210" style="width:200px;height: 28px">legochina.cn</p>
+                    <p class="fr" style="width:200px;height: 28px">
+                        欢迎光临
+                        <a href="#">乐购</a>，请
+                        <a href="#">
+                            <span>登陆</span>
+                        </a>\
+                        <a href="#">注册</a>
+                    </p>
+                    <h1 class="logo">
+                        <a href="#">
+                            <img src="./images/LOGO_02.jpg" alt="">
+                        </a>
+                    </h1>
+                </div>
+            </div>
+            <div class="-bd container land">
+                <p>欢迎登陆</p>
+                <p>已有账号，请&emsp;<a href="#">登陆</a>&emsp;</p>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- registe -->
+    <section id="registe" class="container-fluid">
+        <form id="myform">
+            <p class="mfb">
+                <label>用户名</label>
+                <input type="text" name="user" placeholder="您的账户名和登录名">
+            </p>
+            <p class="mfb">
+                <label>设置密码</label>
+                <input type="password" id="psw" name="psw" placeholder="建议设置两种字符密码">
+            </p>
+            <p class="mfb">
+                <label>确认密码</label>
+                <input type="password" name="checkPwd" placeholder="再次输入密码">
+            </p>
+            <p class="mfb">
+                <label>中国+86</label>
+                <input type="tel" name="telNum" placeholder="建议使用常用手机号">
+            </p>
+            <p class="mfb">
+                <label>验证码</label>
+                <input type="text" placeholder="请输入验证码">
+                <img class="vcode" src="./images/vcode.jpg" alt="">
+            </p>
+            <p class="mfb">
+                <label>手机验证码</label>
+                <input type="text" placeholder="输入手机验证码">
+                <a href="#" class="getcode">获取验证码</a>
+            </p>
+            <p class="mt10"><input id="agree" type="checkbox">我已阅读并同意<span class="f60">《京东用户注册协议》</span></p>
+            <p><input id="btn" type="submit" value="立即注册"></p>
+
+        </form>
+        
+
+    </section>
+
+    <!-- footer -->
+    <footer class="container-fluid ">
+        <div class="container footerBott" style="height: 100px;">
+            <div class="fBB">
+                <ul class="clearfix mt20">
+                    <li><a href="#">公司简介</a></li>
+                    <li><a href="#">Investor Relations</a></li>
+                    <li><a href="#">网站联盟</a></li>
+                    <li><a href="#">乐购招商</a></li>
+                    <li><a href="#">机构销售</a></li>
+                    <li><a href="#">手机乐购</a></li>
+                    <li><a href="#">官方Blog</a></li>
+                    <li><a href="#">热词搜索</a></li>
+                </ul>
+            </div>
+            <p class="fz12 mt20">Copyright (C) 乐购网 2004-2016, All Rights Reserved</p>
+        </div>
+        
+    </footer>
+</body>
+</html>

@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>乐购商城产品详情页面</title>
+    <!-- 引入公共样式 -->
+    <link rel="stylesheet" href="./css/common.css">
+    <!-- 引入放大镜样式 -->
+    <link rel="stylesheet" href="./css/magnifier-fdj.css">
+    <!-- 引入当前样式 -->
+    <link rel="stylesheet" href="./css/productMessage.css">
+    <!-- 引入jQuery -->
+    <script src="./js/jquery.js"></script>
+    <!-- 引入放大镜js -->
+    <script src="./js/magnifier-fdj.js"></script>
+    <!-- 引入页面js -->
+    <script src="./js/productMessage.js"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div>
+            <div class="container-fluid bgc000">
+                <div class="container welcome clearfix">
+                    <p class="fl ti210" style="width:200px;height: 28px">legochina.cn</p>
+                    <p class="fr" style="width:200px;height: 28px">
+                        欢迎光临
+                        <a href="#">乐购</a>，请
+                        <a href="#">
+                            <span>登陆</span>
+                        </a>\
+                        <a href="#">注册</a>
+                    </p>
+                    <h1 class="logo">
+                        <a href="#">
+                            <img src="./images/LOGO_02.jpg" alt="">
+                        </a>
+                    </h1>
+                </div>
+            </div>
+
+            <div class="container search clearfix ">
+                <p class="fr mtb">
+                    <a class="fl car bgcf60 ml cfff" href="#">购物车
+                        <span>3</span>
+                    </a>
+                    <a class="fl" href="#">我的订单</a>
+                </p>
+                <form class="fr mtb" action="">
+                    <input class="btn fr" type="submit" value="">
+                    <input class="searchLeft fr" type="text" placeholder="创意文具">
+                </form>
+
+            </div>
+
+            <nav class="container clearfix">
+                <ul class="fr">
+                    <li>
+                        <a href="#">图书</a>
+                    </li>
+                    <li>
+                        <a href="#">电子书</a>
+                    </li>
+                    <li>
+                        <a href="#">原创文学</a>
+                    </li>
+                    <li>
+                        <a href="#">服装</a>
+                    </li>
+                    <li>
+                        <a href="#">运动户外</a>
+                    </li>
+                    <li>
+                        <a href="#">孕婴童</a>
+                    </li>
+                    <li>
+                        <a href="#">家居</a>
+                    </li>
+                    <li>
+                        <a href="#">创意文具</a>
+                    </li>
+                    <li>
+                        <a href="#">地方特产</a>
+                    </li>
+                    <li>
+                        <a href="#">海外购</a>
+                    </li>
+                    <li>
+                        <a href="#">电器城</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- bookBuy -->
+    <section id="bookBuy" class="container-fluid">
+        <p class="container">
+            <span class="fz18 fwb">图书</span> > 小说 > 情感/家庭/婚姻 > 博集天卷 > 她和他</p>
+        <div class="container clearfix">
+            <div class="leftImg fl">
+                <div class="magnifier" id="magnifier1">
+                    <div class="magnifier-container">
+                        <div class="images-cover"></div>
+                        <!--当前图片显示容器-->
+                        <div class="move-view"></div>
+                        <!--跟随鼠标移动的盒子-->
+                    </div>
+                    <div class="magnifier-assembly">
+                        <div class="magnifier-btn">
+                            <span class="magnifier-btn-left">&lt;</span>
+                            <span class="magnifier-btn-right">&gt;</span>
+                        </div>
+                        <!--按钮组-->
+                        <div class="magnifier-line">
+                            <ul class="clearfix animation03">
+                                <li>
+                                    <div class="small-img">
+                                        <img src="images/1.png" />
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="small-img">
+                                        <img src="images/2.png" />
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="small-img">
+                                        <img src="images/3.png" />
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="small-img">
+                                        <img src="images/4.png" />
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="small-img">
+                                        <img src="images/1.png" />
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--缩略图-->
+                    </div>
+                    <div class="magnifier-view"></div>
+                    <!--经过放大的图片显示容器-->
+                </div>
+                <p class="mt20 c80">商品编号：11950959</p>
+            </div>
+            <div class="rightText fr">
+                <div class="part1 mt10 ml10">
+                    <p class="fz16 fwb">她和他</p>
+                    <p class="cred">《偷影子的人》作者马克·李维重磅新作，法国连续60周在榜，销量突破120万册</p>
+                    <p class="c80">[法] 马克·李维 著；杨亦雨 译</p>
+                </div>
+                <div class="part2 ml10 mt10">
+                    <p>乐 购 价：
+                        <span class="fz18 f60 fwb">￥26.20</span> [6.9折] [定价：
+                        <del>￥38.00</del>] (降价通知)</p>
+                    <p>促销信息：
+                        <span class="cred">满减 每满150.00元，可减50.00元现金</span>&emsp;详情 >></p>
+                    <p class="mt20 saleJ">领 券：
+                        <img src="./images/sale_juan.png" alt="">&emsp;
+                        <img src="./images/sale_juan.png" alt="">
+                    </p>
+                    <p class="sumP">累计评价
+                        <span class="f60">99999</span>
+                    </p>
+                </div>
+                <p class="ml mt20 bookType clearfix">
+                    <b class="fl">种类选择：</b>
+                    <span>平 装 版
+                        <i>√</i>
+                    </span>
+                    <span class="active">精 装 版
+                        <i class="active">√</i>
+                    </span>
+                </p>
+                <form class="joinNum mt80">
+                    <input class="shopNum" type="text" value="1">
+                    <span class="add">+</span>
+                    <span class="reduce">-</span>
+                    <input class="joinCar" type="submit" value="加入购物车">
+                </form>
+                <p class="mt28 ml c80">温馨提示：支持7天无理由退货</p>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- hotSingle -->
+    <section id="hotSingle" class="container-fluid mt30">
+        <div class="container">
+            <div class="rTitle f60 ti10 mt30">
+                <h2>
+                    <span>人气单品</span>
+                </h2>
+            </div>
+            <ul class="clearfix">
+                <li class="active">
+                    <p class="img">
+                        <a href="#">
+                            <img src="./images/pl_301.jpg" alt="">
+                        </a>
+                    </p>
+                    <img src="./images/sale_02.png" alt="">
+                    <div class="ti10">
+                        <h3 class="fz14">白夜行&emsp;东野上吾</h3>
+                        <p class="f60">推荐：
+                            <img src="./images/XX.png" alt="">
+                        </p>
+                        <p class="fz18">
+                            <span class="cred">￥:38</span>&emsp;&emsp;
+                            <del class="cc0">￥:58</del>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <p class="img">
+                        <a href="#">
+                            <img src="./images/pl_301.jpg" alt="">
+                        </a>
+                    </p>
+                    <img src="./images/sale_02.png" alt="">
+                    <div class="ti10">
+                        <h3 class="fz14">白夜行&emsp;东野上吾</h3>
+                        <p class="f60">推荐：
+                            <img src="./images/XX.png" alt="">
+                        </p>
+                        <p class="fz18">
+                            <span class="cred">￥:38</span>&emsp;&emsp;
+                            <del class="cc0">￥:58</del>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <p class="img">
+                        <a href="#">
+                            <img src="./images/pl_301.jpg" alt="">
+                        </a>
+                    </p>
+                    <img src="./images/sale_02.png" alt="">
+                    <div class="ti10">
+                        <h3 class="fz14">白夜行&emsp;东野上吾</h3>
+                        <p class="f60">推荐：
+                            <img src="./images/XX.png" alt="">
+                        </p>
+                        <p class="fz18">
+                            <span class="cred">￥:38</span>&emsp;&emsp;
+                            <del class="cc0">￥:58</del>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <p class="img">
+                        <a href="#">
+                            <img src="./images/pl_301.jpg" alt="">
+                        </a>
+                    </p>
+                    <img src="./images/sale_02.png" alt="">
+                    <div class="ti10">
+                        <h3 class="fz14">白夜行&emsp;东野上吾</h3>
+                        <p class="f60">推荐：
+                            <img src="./images/XX.png" alt="">
+                        </p>
+                        <p class="fz18">
+                            <span class="cred">￥:38</span>&emsp;&emsp;
+                            <del class="cc0">￥:58</del>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <p class="img">
+                        <a href="#">
+                            <img src="./images/pl_301.jpg" alt="">
+                        </a>
+                    </p>
+                    <img src="./images/sale_02.png" alt="">
+                    <div class="ti10">
+                        <h3 class="fz14">白夜行&emsp;东野上吾</h3>
+                        <p class="f60">推荐：
+                            <img src="./images/XX.png" alt="">
+                        </p>
+                        <p class="fz18">
+                            <span class="cred">￥:38</span>&emsp;&emsp;
+                            <del class="cc0">￥:58</del>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+            <div class="lookComment clearfix mt30">
+                <div class="look fl">
+                    <p class="fz16">看了又看</p>
+                    <ul>
+                        <li>
+                            <p class="img">
+                                <a href="#">
+                                    <img src="./images/pl_301.jpg" alt="">
+                                </a>
+                            </p>
+                            <img src="./images/sale_02.png" alt="">
+                            <div class="ti10">
+                                <h3 class="fz14">白夜行&emsp;东野上吾</h3>
+                                <p class="f60">推荐：
+                                    <img src="./images/XX.png" alt="">
+                                </p>
+                                <p class="fz18">
+                                    <span class="cred">￥:38</span>&emsp;&emsp;
+                                    <del class="cc0">￥:58</del>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="img">
+                                <a href="#">
+                                    <img src="./images/pl_301.jpg" alt="">
+                                </a>
+                            </p>
+                            <img src="./images/sale_02.png" alt="">
+                            <div class="ti10">
+                                <h3 class="fz14">白夜行&emsp;东野上吾</h3>
+                                <p class="f60">推荐：
+                                    <img src="./images/XX.png" alt="">
+                                </p>
+                                <p class="fz18">
+                                    <span class="cred">￥:38</span>&emsp;&emsp;
+                                    <del class="cc0">￥:58</del>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="img">
+                                <a href="#">
+                                    <img src="./images/pl_301.jpg" alt="">
+                                </a>
+                            </p>
+                            <img src="./images/sale_02.png" alt="">
+                            <div class="ti10">
+                                <h3 class="fz14">白夜行&emsp;东野上吾</h3>
+                                <p class="f60">推荐：
+                                    <img src="./images/XX.png" alt="">
+                                </p>
+                                <p class="fz18">
+                                    <span class="cred">￥:38</span>&emsp;&emsp;
+                                    <del class="cc0">￥:58</del>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="img">
+                                <a href="#">
+                                    <img src="./images/pl_301.jpg" alt="">
+                                </a>
+                            </p>
+                            <img src="./images/sale_02.png" alt="">
+                            <div class="ti10">
+                                <h3 class="fz14">白夜行&emsp;东野上吾</h3>
+                                <p class="f60">推荐：
+                                    <img src="./images/XX.png" alt="">
+                                </p>
+                                <p class="fz18">
+                                    <span class="cred">￥:38</span>&emsp;&emsp;
+                                    <del class="cc0">￥:58</del>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="img">
+                                <a href="#">
+                                    <img src="./images/pl_301.jpg" alt="">
+                                </a>
+                            </p>
+                            <img src="./images/sale_02.png" alt="">
+                            <div class="ti10">
+                                <h3 class="fz14">白夜行&emsp;东野上吾</h3>
+                                <p class="f60">推荐：
+                                    <img src="./images/XX.png" alt="">
+                                </p>
+                                <p class="fz18">
+                                    <span class="cred">￥:38</span>&emsp;&emsp;
+                                    <del class="cc0">￥:58</del>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="comment fr">
+                    <div class="rTitle f60 ti10">
+                        <h2></h2>
+                        <ul class="clearfix">
+                            <li class="intro">商品介绍</li>
+                            <li class="active say999">评价（9999）</li>
+                        </ul>
+                    </div>
+                    <div class="comA" style="width: 850px;">
+                        <div class="top clearfix">
+                            <div class="top1 fl" style="width: 180px;height: 170px;">
+                                <P class="fz50 mt30 f8380c text-center">98%</P>
+                                <p class="ml30 text-center fz16 cc0">好评度</p>
+                            </div>
+                            <div class="top2 fl" style="width: 240px;height: 170px;">
+                                <p class="mt30">好评(98%)<i></i><b class="good"></b></p>
+                                <p>中评(2%)<i></i><b class="ok"></b></p>
+                                <p>差评(0%)<i></i><b class="bad"></b></p>
+                            </div>
+                            <div class="top3 fl" style="width: 200px;height: 170px;">
+                                <p class="mt30">1.洲**子&emsp;&emsp;&emsp;&emsp;+0 </p>
+                                <p>3.洲**子&emsp;&emsp;&emsp;&emsp;+10 </p>
+                            </div>
+                            <div class="top3 fl" style="width: 200px;height: 170px;">
+                                <p class="mt30">2.洲**子&emsp;&emsp;&emsp;&emsp;+0 </p>
+                                <p>4.洲**子&emsp;&emsp;&emsp;&emsp;+10 </p>
+                            </div>
+                        </div>
+                        <div class="comAUl">
+                            <ul class="clearfix">
+                                <li class="ml f60">全部评价（9999）</li>
+                                <li>好评（888）</li>
+                                <li>中评（888）</li>
+                                <li>差评（888）</li>
+                            </ul>
+                        </div>
+                        <ul class="comAxx">
+                            <li class="clearfix">
+                                <div class="xing fl">
+                                    <p class="mt20">
+                                        <img src="./images/XX.png" alt="">
+                                    </p>
+                                    <p>下单后5天评论</p>
+                                    <p>2016-08-11</p>
+                                </div>
+                                <p class="fl c666">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力</p>
+                                <div class="user fr">
+                                    <p class="mt20">
+                                        <span></span>洲**子</p>
+                                    <p class="cf4b212">金牌会员</p>
+                                    <p>来自iPhone客户端</p>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="xing fl">
+                                    <p class="mt20">
+                                        <img src="./images/XX.png" alt="">
+                                    </p>
+                                    <p>下单后5天评论</p>
+                                    <p>2016-08-11</p>
+                                </div>
+                                <p class="fl c666">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力</p>
+                                <div class="user fr">
+                                    <p class="mt20">
+                                        <span></span>洲**子</p>
+                                    <p class="cf4b212">金牌会员</p>
+                                    <p>来自iPhone客户端</p>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="xing fl">
+                                    <p class="mt20">
+                                        <img src="./images/XX.png" alt="">
+                                    </p>
+                                    <p>下单后5天评论</p>
+                                    <p>2016-08-11</p>
+                                </div>
+                                <p class="fl c666">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力</p>
+                                <div class="user fr">
+                                    <p class="mt20">
+                                        <span></span>洲**子</p>
+                                    <p class="cf4b212">金牌会员</p>
+                                    <p>来自iPhone客户端</p>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="xing fl">
+                                    <p class="mt20">
+                                        <img src="./images/XX.png" alt="">
+                                    </p>
+                                    <p>下单后5天评论</p>
+                                    <p>2016-08-11</p>
+                                </div>
+                                <p class="fl c666">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力</p>
+                                <div class="user fr">
+                                    <p class="mt20">
+                                        <span></span>洲**子</p>
+                                    <p class="cf4b212">金牌会员</p>
+                                    <p>来自iPhone客户端</p>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="xing fl">
+                                    <p class="mt20">
+                                        <img src="./images/XX.png" alt="">
+                                    </p>
+                                    <p>下单后5天评论</p>
+                                    <p>2016-08-11</p>
+                                </div>
+                                <p class="fl c666">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力</p>
+                                <div class="user fr">
+                                    <p class="mt20">
+                                        <span></span>洲**子</p>
+                                    <p class="cf4b212">金牌会员</p>
+                                    <p>来自iPhone客户端</p>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="xing fl">
+                                    <p class="mt20">
+                                        <img src="./images/XX.png" alt="">
+                                    </p>
+                                    <p>下单后5天评论</p>
+                                    <p>2016-08-11</p>
+                                </div>
+                                <p class="fl c666">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力</p>
+                                <div class="user fr">
+                                    <p class="mt20">
+                                        <span></span>洲**子</p>
+                                    <p class="cf4b212">金牌会员</p>
+                                    <p>来自iPhone客户端</p>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="xing fl">
+                                    <p class="mt20">
+                                        <img src="./images/XX.png" alt="">
+                                    </p>
+                                    <p>下单后5天评论</p>
+                                    <p>2016-08-11</p>
+                                </div>
+                                <p class="fl c666">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力</p>
+                                <div class="user fr">
+                                    <p class="mt20">
+                                        <span></span>洲**子</p>
+                                    <p class="cf4b212">金牌会员</p>
+                                    <p>来自iPhone客户端</p>
+                                </div>
+                            </li>
+
+
+                        </ul>
+                        <p class="next">
+                            <a class="active" href="#">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                            <a href="#">4</a>
+                            <a href="#">5</a>
+                            <a href="#">6</a>
+                            <a class="dd" href="#">......</a>
+                            <a href="#">下一页</a>
+                        </p>
+
+                    </div>
+
+                    <div class="comB" style="width: 850px;">
+                        <img  src="./images/xq01.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- moshou -->
+    <section id="moshou" class="container mt20">
+        <img src="./images/moshou.png" alt="">
+
+    </section>
+
+    <!-- footer -->
+    <footer class="container-fluid">
+        <div class="footerTop">
+            <div>
+                <a href="#">
+                    <img src="./images/222_11.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="./images/222_13.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="./images/222_15.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="./images/222_17.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="container footerBott mt30" style="height: 100px;">
+            <div class="clearfix fBT">
+                <ul>
+                    <li class="fwb">
+                        <a href="#">购物指南</a>
+                    </li>
+                    <li>
+                        <a href="#">购物流程</a>
+                    </li>
+                    <li>
+                        <a href="#">发票制度</a>
+                    </li>
+                    <li>
+                        <a href="#">账户管理</a>
+                    </li>
+                    <li>
+                        <a href="#">会员优惠</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="fwb">
+                        <a href="#">支付方式</a>
+                    </li>
+                    <li>
+                        <a href="#">货到付款</a>
+                    </li>
+                    <li>
+                        <a href="#">网上支付</a>
+                    </li>
+                    <li>
+                        <a href="#">礼品卡支付</a>
+                    </li>
+                    <li>
+                        <a href="#">银行转帐</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="fwb">
+                        <a href="#">订单服务</a>
+                    </li>
+                    <li>
+                        <a href="#">订单配送查询</a>
+                    </li>
+                    <li>
+                        <a href="#">订单状态说明</a>
+                    </li>
+                    <li>
+                        <a href="#">自助取消订单</a>
+                    </li>
+                    <li>
+                        <a href="#">自助修改订单</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="fwb">
+                        <a href="#">退换货</a>
+                    </li>
+                    <li>
+                        <a href="#">退换货政策</a>
+                    </li>
+                    <li>
+                        <a href="#">自助申请退换货</a>
+                    </li>
+                    <li>
+                        <a href="#">退换货进度查询</a>
+                    </li>
+                    <li>
+                        <a href="#">退款方式和时间</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="fwb">
+                        <a href="#">商家服务</a>
+                    </li>
+                    <li>
+                        <a href="#">商家中心</a>
+                    </li>
+                    <li>
+                        <a href="#">运营服务</a>
+                    </li>
+                    <li>
+                        <a href="#">加入尾品汇</a>
+                    </li>
+                </ul>
+
+            </div>
+            <img class="footerLogo" src="./images/logo_00.png" alt="">
+            <div class="fBB">
+                <ul class="clearfix">
+                    <li>
+                        <a href="#">公司简介</a>
+                    </li>
+                    <li>
+                        <a href="#">Investor Relations</a>
+                    </li>
+                    <li>
+                        <a href="#">网站联盟</a>
+                    </li>
+                    <li>
+                        <a href="#">乐购招商</a>
+                    </li>
+                    <li>
+                        <a href="#">机构销售</a>
+                    </li>
+                    <li>
+                        <a href="#">手机乐购</a>
+                    </li>
+                    <li>
+                        <a href="#">官方Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">热词搜索</a>
+                    </li>
+                </ul>
+            </div>
+            <p class="fz12 mt20">Copyright (C) 乐购网 2004-2016, All Rights Reserved</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
